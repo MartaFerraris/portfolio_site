@@ -21,3 +21,17 @@
     font-style: normal;
     cursor: pointer;
 }
+
+.nav-link a {
+    color: #d4d4d4;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.nav-link:hover{
+    font-size: 18px;  
+    font-weight: 600;  
+    padding: 1rem;
+    border-radius: 50px;
+    background: linear-gradient(180deg, #B2217A 0.36%, #8634C6 102.6%);
+}
