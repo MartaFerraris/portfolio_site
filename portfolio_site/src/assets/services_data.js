@@ -1,17 +1,17 @@
-const Services_Data = [
+const servicesData = [
     {
-        s_name: "Web design",
-        s_desc: "Descrizione per il web design."
+        sName: "Web design",
+        sDesc: "Descrizione per il web design."
     },
     {
-        s_name: "Graphic design",
-        s_desc: "Descrizione per il graphic design."
+        sName: "Graphic design",
+        sDesc: "Descrizione per il graphic design."
     },
     {
-        s_name: "App design",
-        s_desc: "Descrizione per il app design."
+        sName: "App design",
+        sDesc: "Descrizione per il app design."
     },
 
 ]
 
-export default Services_Data;
+export default servicesData;

@@ -1,24 +1,24 @@
 import React from 'react'
 import "./Services.css"
-import theme_pattern from "../../assets/Theme_pattern.png"
-import Services_Data from "../../assets/services_data.js"
-import arrow_icon from "../../assets/arrow.png"
+import themePattern from "../../assets/Theme_pattern.png"
+import servicesData from "../../assets/services_data.js"
+import arrowIcon from "../../assets/arrow.png"
 
 const Services = () => {
     return (
         <div className='services'>
             <div className="services-title">
                 <h1>My Services</h1>
-                <img src={theme_pattern} alt="" />
+                <img src={themePattern} alt="" />
             </div>
             <div className="services-container">
-                {Services_Data.map((serv, i) => {
+                {servicesData.map((serv, i) => {
                     return <div key={i} className='services-format'>
-                        <h3>{serv.s_name}</h3>
-                        <p>{serv.s_desc}</p>
+                        <h3>{serv.sName}</h3>
+                        <p>{serv.sDesc}</p>
                         <div className='services-readmore'>
                             <p>Read More</p>
-                            <img src={arrow_icon} alt="" />
+                            <img src={arrowIcon} alt="" />
                         </div>
                     </div>
                 })}

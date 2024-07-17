@@ -1,11 +1,11 @@
 import React from 'react'
 import "./Profile.css"
-import profile_img from '../../assets/Profile.png'
+import profileImg from '../../assets/Profile.png'
 
 const Profile = () => {
     return (
         <div className='profile'>
-            <img src={profile_img} alt="profile image" />
+            <img src={profileImg} alt="profile image" />
             <h1><span>I'm Marta Ferraris</span>, <br />frontend developer based in Italy.</h1>
             <p>I'm a frontend developer from Biella in Piedmont, and this is my website!</p>
             <div className="profile-action">
