@@ -19,7 +19,6 @@ const Navbar = () => {
         <li className='nav-link'><Link to="/contacts">Contacts</Link></li>
       </ul>
       <Button text={"My Contacts"} onClick={redirect}/>
-
     </div>
   )
 }

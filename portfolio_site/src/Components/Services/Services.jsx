@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "./Services.css"
 import themePattern from "../../assets/Theme_pattern.png"
-import servicesData from "../../assets/services_data.js"
+import servicesData from "../../assets/DataMock/servicesData.js"
 import Cards from '../Cards/Cards.jsx'
 
 const Services = () => {
